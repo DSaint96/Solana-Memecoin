@@ -1,0 +1,18 @@
+# Never upload these to GitHub
+.env
+*.log
+bot.log
+
+# Never upload your trade data (contains financial info)
+trades.csv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings
+.vscode/
+
+# macOS junk
+.DS_Store
